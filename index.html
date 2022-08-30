@@ -9,59 +9,106 @@
     <title>Website profil</title>
     <!-- css sementara -->
     <style>
+        body {
+            background-color: rgb(95, 95, 95);
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        h1 {
+            color: rgb(245, 245, 245);
+        }
+        
         h1,
         h2,
         h3 {
             text-align: center;
+            color: rgb(200, 200, 200);
         }
         
         img {
             display: block;
             margin-left: auto;
             margin-right: auto;
-        }
-        
-        p {
-            margin-right: 60%;
+            border-radius: 10px;
         }
         
         table {
-            border: solid;
+            border: solid rgb(95, 95, 95);
+            width: 20%;
+            border-spacing: 0ch;
             margin-left: auto;
             margin-right: auto;
         }
         
-        th,
-        td {
+        th {
+            background-color: grey;
             padding: 10px;
-            border: 1px solid black;
+            border: 2px solid rgb(95, 95, 95);
             border-collapse: collapse;
+            color: rgb(245, 245, 245);
+            border-radius: 10px;
         }
         
         td {
-            background-color: aqua;
-            margin-right: 60%;
+            background-color: gainsboro;
+            padding: 7px;
+            border: 2px solid rgb(95, 95, 95);
+            border-collapse: collapse;
+            border-radius: 10px;
+            text-align: center
         }
         
         ul,
         ol {
-            border: solid;
             margin-left: 40%;
             margin-right: 40%;
         }
         
         li {
             padding: 3px;
+            font-size: large;
+        }
+        
+        a,
+        li:link {
+            text-decoration: none;
+        }
+        
+        a,
+        li:visited {
+            text-decoration: none;
+        }
+        
+        a,
+        li:hover {
+            color: rgb(200, 200, 200);
+        }
+        
+        a,
+        li:active {
+            color: white;
+        }
+        
+        nav {
+            background-color: #303030;
+            padding: 5px;
+            position: sticky;
+            top: 0;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-radius: 10px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Profil Saya</h1>
+        <nav>
+            <h1>Profil Saya</h1>
+        </nav>
     </header>
-    <img src="assets/jerma.jpg" alt="foto saya" width="200">
     <h3>Muhammad Rifqi Navis Fahrezy</h3>
+    <img src="assets/jerma.jpg" alt="foto saya" width="200">
     <section>
         <h3>Biodata</h3>
         <table>
@@ -87,45 +134,48 @@
             </tr>
         </table>
     </section>
-    <!-- hobi -->
-    <div>
-        <h3>Hobi Saya</h3>
-        <ul>
-            <a href="hobi/game.html">
-                <li>Bermain game</li>
-            </a>
-            <a href="hobi/coding.html">
-                <li>Coding(bohong)</li>
-            </a>
-            <a href="hobi/piano.html">
-                <li>Memainkan Piano</li>
-            </a>
-            <a href="hobi/komik.html">
-                <li>Membaca komik</li>
-            </a>
-        </ul>
-    </div>
-    <!-- lagu favorit -->
-    <div>
-        <h3>Lagu Favorit</h3>
-        <ol>
-            <a href="https://youtu.be/HtUH9z_Oey8">
-                <li>Strawberry Fields Forever</li>
-            </a>
-            <a href="https://youtu.be/fJ9rUzIMcZQ">
-                <li>Bohemian Rhapsody</li>
-            </a>
-            <a href="https://youtu.be/53N99Nim6WE&t=21s">
-                <li>Echoes</li>
-            </a>
-            <a href="https://youtu.be/3f2g4RMfhS0">
-                <li>Let There Be Rock</li>
-            </a>
-            <a href="https://youtu.be/ahwx9evnrdo">
-                <li>Akogare No Seychelles Shoto</li>
-            </a>
-        </ol>
-    </div>
+    <footer>
+        <!-- hobi -->
+        <div>
+            <h3>Hobi Saya</h3>
+            <ul>
+                <a href="hobi/game.html">
+                    <li>Bermain game</li>
+                </a>
+                <a href="hobi/coding.html">
+                    <li>Coding(bohong)</li>
+                </a>
+                <a href="hobi/piano.html">
+                    <li>Memainkan Piano</li>
+                </a>
+                <a href="hobi/komik.html">
+                    <li>Membaca komik</li>
+                </a>
+            </ul>
+        </div>
+        <!-- lagu favorit -->
+        <div>
+            <h3>Lagu Favorit</h3>
+            <ol>
+                <a href="https://youtu.be/HtUH9z_Oey8">
+                    <li>Strawberry Fields Forever</li>
+                </a>
+                <a href="https://youtu.be/fJ9rUzIMcZQ">
+                    <li>Bohemian Rhapsody</li>
+                </a>
+                <a href="https://youtu.be/53N99Nim6WE&t=21s">
+                    <li>Echoes</li>
+                </a>
+                <a href="https://youtu.be/3f2g4RMfhS0">
+                    <li>Let There Be Rock</li>
+                </a>
+                <a href="https://youtu.be/ahwx9evnrdo">
+                    <li>Akogare No Seychelles Shoto</li>
+                </a>
+            </ol>
+        </div>
+    </footer>
+
 </body>
 
 </html>
