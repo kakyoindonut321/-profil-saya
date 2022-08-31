@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(95, 95, 95);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: rgb(245, 245, 245);
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+table {
+    border: solid rgb(95, 95, 95);
+    width: 20%;
+    border-spacing: 0ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: grey;
+    padding: 10px;
+    border: 2px solid rgb(95, 95, 95);
+    border-collapse: collapse;
+    color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+td {
+    background-color: gainsboro;
+    padding: 7px;
+    border: 2px solid rgb(95, 95, 95);
+    border-collapse: collapse;
+    border-radius: 10px;
+    text-align: center
+}
+
+ul,
+ol {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+li {
+    padding: 3px;
+    font-size: large;
+}
+
+a,
+li:link {
+    text-decoration: none;
+}
+
+a,
+li:visited {
+    text-decoration: none;
+}
+
+a,
+li:hover {
+    color: rgb(200, 200, 200);
+}
+
+a,
+li:active {
+    color: white;
+}
+
+nav {
+    background-color: #303030;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
